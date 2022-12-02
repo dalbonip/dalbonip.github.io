@@ -1,0 +1,117 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Dalbonip Hackerspace
+email: pdalbonii+hackerspace@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Dalbonip Hackerspace
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://dalbonip.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: dalbonip
+github_username:  dalbonip
+instagram_username: dalbonip
+linkedin_username: dalbonip
+youtube_username: dalbonip
+
+author:
+  name: "Paulo V Dalboni"
+  avatar: "/assets/images/profile_pic.jpg"
+  bio: "Sou um pesquisador de segurança da informação focado em pentest web e mobile. Atualmente me divertindo um pouco com Hardware Hacking :)" # Note: Markdown is allowed
+  location: "Night City"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/dalbonip"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/dalbonip"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/dalbonip"
+    - label: "Medium"
+      icon: "fab fa-medium"
+      url: "https://medium.com/@dalboni"
+    - label: "Youtube"
+      icon: "fab fa-youtube"
+      url: "https://www.youtube.com/@dalbonip"
+    - label: "Me pague um café ^^"
+      icon: "fas fa-smile"
+      url: "https://www.buymeacoffee.com/dalbonip"
+
+paginate: 5
+paginate_path: /_site/page:num/
+
+# Build settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-archives
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+  # _site
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+defaults:
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
