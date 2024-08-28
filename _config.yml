@@ -34,17 +34,17 @@ repository: dalbonip/dalbonip.github.io
 author:
   name: "Paulo V Dalboni"
   avatar: "/assets/images/profile_pic.jpg"
-  bio: "Sou um pesquisador de segurança da informação focado em pentest web e mobile. Atualmente me divertindo um pouco com Hardware Hacking :)" # Note: Markdown is allowed
-  location: "Night City"
+  bio: "I'm a security researcher focused on web and mobile pentesting. Currently having fun with Hardware Hacking :)" # Note: Markdown is allowed
+  location: "São Paulo, Brazil"
   links:
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-twitter-square"
       url: "https://twitter.com/dalbonip"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-github"
       url: "https://github.com/dalbonip"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+      icon: "fab fa-instagram"
       url: "https://instagram.com/dalbonip"
     - label: "Medium"
       icon: "fab fa-medium"
@@ -52,7 +52,7 @@ author:
     - label: "Youtube"
       icon: "fab fa-youtube"
       url: "https://www.youtube.com/@dalbonip"
-    - label: "Me pague um café ^^"
+    - label: "buy me a coffee ^^"
       icon: "fas fa-smile"
       url: "https://www.buymeacoffee.com/dalbonip"
 
